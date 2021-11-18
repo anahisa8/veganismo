@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #0a0a0a;
+}
+
+.container {
+    width: 1000px;
+    display: block;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    background-color:#ffffff;
+}
+
+.header--list {
+    width: inherit;
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#0a0a0a;
+    font-weight: 700;
+}
+
+a:hover {
+    color:#ffb1b0;
+}
+
+.header--logo {
+    width: 100px;
+}
+
+h1,h2,h3,h4 {
+ font-family: 'Lora', serif;
+}
+
+footer {
+    color:rgb(20, 20, 20);
+    padding: 50px;
+    background-color: rgb(235, 215, 218);
+}
+
+footer h2 {
+    margin-bottom: inherit;
+}
+
