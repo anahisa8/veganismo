@@ -1,10 +1,14 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@100;300;400;500;900&display=swap');
 
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     color: #0a0a0a;
+    background: fixed;
+    background-image: url(./images/backgorund.jpg);
+    font-size: 18px;
 }
 
 .container {
@@ -17,7 +21,8 @@ header {
     display: flex;
     justify-content: space-between;
     width: inherit;
-    background-color:#ffffff;
+    background-color: #ffff;
+    margin: 10px;
 }
 
 .header--list {
@@ -30,29 +35,59 @@ header {
 
 a {
     text-decoration: none;
-    color:#0a0a0a;
-    font-weight: 700;
+    color: #D898AE;
+    font-weight: 900;
 }
 
 a:hover {
+    font-size: 20px;
     color:#ffb1b0;
 }
 
 .header--logo {
-    width: 100px;
+    width: 150px;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3,h4,h5 {
  font-family: 'Lora', serif;
+ font-weight: bolder;
+}
+
+h2 {
+    font-size: 35px;
+    color: #574141;
+}
+
+h3 {
+    font-size: 32px;
+    color: #6884C9;
+}
+
+h4 {
+    font-size: 28px;
+    font-style: italic;
+    color: #B1569A;
+}
+
+h5 {
+ font-size: 25px;
+ color: #AA83A5;
+}
+
+img {
+  width: 700px;  
 }
 
 footer {
     color:rgb(20, 20, 20);
     padding: 50px;
-    background-color: rgb(235, 215, 218);
+
 }
 
 footer h2 {
     margin-bottom: inherit;
 }
 
+b { 
+    color: #7A7092;
+}
