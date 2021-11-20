@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@100;300;400;500;900&display=swap');
 
 body {
@@ -17,12 +15,25 @@ body {
     margin: auto;
 }
 
+.title--container {
+    display: flex;
+    /* line-height: 0px; */
+}
+.title--container h2 {
+    align-self: center;
+    margin: 0 8px;
+}
+.title--container img {
+    width: 60px;
+    height: 60px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     width: inherit;
     background-color: #ffff;
-    margin: 10px;
+    margin: 10px 0px 40px 0px;
 }
 
 .header--list {
